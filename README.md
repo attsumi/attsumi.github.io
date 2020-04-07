@@ -1,4 +1,4 @@
 # attsumicom
 - my portfolio site!
 
-- email: attsumi at gmail.com
+- email: yattsumi at gmail.com
