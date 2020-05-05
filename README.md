@@ -1,3 +1,4 @@
 # attsumicom
-- my portfolio site
-- yattsumi at gmail.com
+- my portfolio site!
+
+- email: yattsumi at gmail.com
