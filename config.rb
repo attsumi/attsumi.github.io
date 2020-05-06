@@ -5,6 +5,10 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+end
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -15,7 +19,7 @@ page '/*.txt', layout: false
 page '/*.md', layout: false
 
 # With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
+page '/path/to/file.html', layout: 'other_layout'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
