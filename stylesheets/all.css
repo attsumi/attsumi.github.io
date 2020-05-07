@@ -2,7 +2,7 @@ body {
   background-color: #FEF0EC;
   color: #333;
   font-family: 'Noto Sans JP', sans-serif;
-  padding: 18vh 4vw;
+  padding: 8vh 4vw;
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6, p, ul, figure {
@@ -17,22 +17,28 @@ h1 {
   margin-bottom: 20px; }
 
 h3 {
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 32px 0 16px; }
 
 p {
-  line-height: 1.7;
+  line-height: 2;
   font-size: 1rem; }
 
 a {
-  color: rgba(0, 0, 0, 0.7); }
+  color: #3F65B9; }
   a:focus, a:hover {
     color: rgba(0, 0, 0, 0.6); }
 
-footer {
-  font-size: 0.75rem; }
+li {
+  margin-bottom: 8px; }
 
-.container {
-  height: 50vh; }
+footer {
+  font-size: 0.75rem;
+  padding: 48px 0 24px; }
+
+.caption {
+  font-size: 0.875rem;
+  color: #696969; }
 
 .contact-form {
   margin-top: 3vh; }
